@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import introImage from '../images/intro-pic.jpg';
-import '../IntroPage.css';
 
 class IntroPage extends Component {
 
@@ -15,7 +14,7 @@ class IntroPage extends Component {
       // </div>
 
       <div className="container">
-        
+
       </div>
     )
   }
