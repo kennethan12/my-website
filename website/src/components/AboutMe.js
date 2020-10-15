@@ -4,9 +4,9 @@ class AboutMe extends Component {
 
   render() {
     return (
-      <div class="container">
+      <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="col align-self-center">
+          <div class="col align-self-center pt-3 pb-3">
             <p>
               I’m a recent grad from Williams College looking for Full Stack Development opportunities!
             </p>

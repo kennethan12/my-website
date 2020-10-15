@@ -5,9 +5,9 @@ class Avatar extends Component {
 
   render() {
     return (
-      <div class="container">
+      <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="col align-self-center">
+          <div class="col align-self-center pt-3 pb-3">
             <img src={avatar} class="center" style={{ display: "flex", width: "80%" }}></img>
           </div>
         </div>
