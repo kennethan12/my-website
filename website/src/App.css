@@ -90,6 +90,7 @@ div p {
   display: inline-block;
   position: relative;
   margin: auto;
+  padding: 20px;
   width: 100%;
   /* height: 500px; */
 
@@ -101,10 +102,63 @@ div p {
 }
 
 #logoCol img {
-  display: flex;
-  width: 80%;
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 p strong {
   font-weight: 500;
+}
+
+.container-experience {
+  display: flex;
+  position: relative;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+  /* height: 500px; */
+
+  background: #FFFFFF;
+  border: 8px solid rgba(103, 62, 88, 0.44);
+  box-sizing: border-box;
+  box-shadow: 6px 6px 4px #B5A790;
+  border-radius: 4px;
+}
+
+.img-experience {
+  flex: 1;
+}
+
+.company-experience {
+  flex: 11;
+}
+
+#experience-position {
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+@media(min-width: 992px) {
+  .container-experience {
+    width: 80%
+  }
+}
+
+@media(min-width: 575px) {
+  #experience-dates {
+    text-align: right;
+  }
+}
+
+@media(max-width: 575px) {
+  #experience-position {
+    margin-bottom: 0;
+  }
+}
+
+#dots {
+  width: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
