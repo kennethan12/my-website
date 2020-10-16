@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Avenir'), url(./fonts/Avenir-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Avenir'), url(./fonts/Avenir-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Avenir'), url(./fonts/Avenir-LightOblique.ttf) format('truetype');
+}

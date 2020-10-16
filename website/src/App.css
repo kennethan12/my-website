@@ -46,7 +46,7 @@
 }
 
 .h2 {
-  font-family: Forma DJR Deck;
+  font-family: Raleway;
   font-style: normal;
   font-weight: 300 !important;
   font-size: 3rem !important;
@@ -54,8 +54,10 @@
   color: #1D240A;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Avenir:300,500');
+
 div p {
-  font-family: Avenir;
+  font-family: 'Avenir';
   font-style: normal;
   font-weight: 300;
   line-height: 140.9%;
