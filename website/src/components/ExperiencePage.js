@@ -39,7 +39,7 @@ class ExperiencePage extends Component {
     ftl: {
       logo: ftlLogo,
       company: "Faster Than Light",
-      position: "Software/Business Development Intern",
+      position: "Product/Business Development Intern",
       dates: "June 2019 - August 2019",
       description: <div>
         <p>
