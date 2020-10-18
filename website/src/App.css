@@ -166,13 +166,76 @@ p strong {
 }
 
 .project {
-  width: 300px;
-  height: 250px;
-  border: 4px solid #7E94B4;
+  position: relative;
+  width: 350px;
+  height: 300px;
 }
 
-.project img {
-  width: 292px;
-  height: 242px;
+.project__image {
+  width: 350px;
+  height: 300px;
   object-fit: cover;
+}
+
+@media(max-width: 350px) {
+  .project {
+    width: 100vw;
+  }
+
+  .project__image {
+    width: 100vw;
+  }
+}
+
+.project__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(250, 250, 250, 0.8);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.25s;
+}
+
+.project__overlay--blur {
+  backdrop-filter: blur(4px);
+}
+
+.project__overlay>* {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.project__overlay:hover {
+  opacity: 1;
+}
+
+.project__overlay:hover>* {
+  transform: translateY(0);
+
+}
+
+.project__name {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.project__tools {
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0.25em;
+  color: #6A9195;
+}
+
+.list__project {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }

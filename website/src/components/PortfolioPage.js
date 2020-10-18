@@ -4,6 +4,9 @@ import orderbookImg from '../images/orderbook.png'
 import superheroImg from '../images/superhero.png'
 import flooringImg from '../images/flooring-orders.png';
 import ctcImg from '../images/crack-the-code.png';
+import vmImg from '../images/vending-machine.png';
+import crosswordImg from '../images/crossword.png';
+import localhostImg from '../images/localhost.png';
 
 class PortfolioPage extends Component {
 
@@ -32,6 +35,23 @@ class PortfolioPage extends Component {
         name: "Crack The Code Game",
         tools: "Java, Spring Boot",
         link: "https://github.com/kennethan12/crackthecode"
+      },
+      {
+        image: vmImg,
+        name: "Vending Machine",
+        tools: "React.js, JavaScript, HTML, CSS",
+        link: 'https://github.com/kennethan12/vending-machine'
+      },
+      {
+        image: crosswordImg,
+        name: "Crossword",
+        tools: "Swift, Xcode",
+        link: 'https://github.com/kennethan12/crossword'
+      },
+      {
+        image: localhostImg,
+        name: "LocalHost: Excursion App",
+        tools: "Ionic/Angular, Loopback 4, TypeScript, HTML, CSS, MySQL"
       }
     ]
   }
@@ -50,7 +70,7 @@ class PortfolioPage extends Component {
           <div class="row">
             <div className="underscore-light" />
           </div>
-          <div class="row">
+          <div class="row mt-4 list__project">
             {projects.map((project) => {
               return (
                 <Project
