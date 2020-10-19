@@ -54,6 +54,13 @@
   color: #1D240A;
 }
 
+.h3 {
+  font-weight: 500 !important;
+  font-size: 2rem !important;
+  text-align: center;
+  color: #1D240A;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Avenir:300,500');
 
 div p {
@@ -126,7 +133,18 @@ p strong {
   box-sizing: border-box;
   box-shadow: 6px 6px 4px #B5A790;
   border-radius: 4px;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  transition: all 0.25s ease;
 }
+
+.container-experience:hover {
+  transform: scale(1.05);
+  transition-duration: 0.25s;
+}
+
 
 .img-experience {
   flex: 1;
@@ -167,6 +185,7 @@ p strong {
 
 .project {
   position: relative;
+  margin: 3px;
   width: 350px;
   height: 300px;
 }

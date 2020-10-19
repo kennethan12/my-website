@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class ExperienceCard extends Component {
 
   render() {
-    let { logo, company, position, dates, description } = this.props;
+    let { logo, alt, company, position, dates, description } = this.props;
 
     return (
       // <div class="container-fluid">
@@ -34,7 +34,7 @@ class ExperienceCard extends Component {
       <div class="container-experience">
         <div class="row">
           <div id="logoCol" class="img-experience">
-            <img class="center" src={logo}></img>
+            <img class="center" src={logo} alt={alt}></img>
           </div>
           <div class="company-experience">
             <div class="row pt-1 pl-3 pr-3">

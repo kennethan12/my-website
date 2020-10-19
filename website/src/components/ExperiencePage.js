@@ -9,6 +9,7 @@ class ExperiencePage extends Component {
   state = {
     mthree: {
       logo: mthreeLogo,
+      alt: "Mthree logo",
       company: "The Software Guild - Mthree",
       position: "Full Stack Java Developer Trainee",
       dates: "July 2020 - Present",
@@ -38,6 +39,7 @@ class ExperiencePage extends Component {
     },
     ftl: {
       logo: ftlLogo,
+      alt: "Faster Than Light logo",
       company: "Faster Than Light",
       position: "Product/Business Development Intern",
       dates: "June 2019 - August 2019",
@@ -71,6 +73,7 @@ class ExperiencePage extends Component {
     },
     appstrax: {
       logo: appstraxLogo,
+      alt: "Appstrax Technology logo",
       company: "AppStrax Technology (Pyt) Ltd",
       position: "Full Stack Developer Intern",
       dates: "July 2018 - August 2018",
@@ -110,6 +113,7 @@ class ExperiencePage extends Component {
           <div class="row mt-4">
             <ExperienceCard
               logo={mthree.logo}
+              alt={mthree.alt}
               company={mthree.company}
               position={mthree.position}
               dates={mthree.dates}
@@ -117,11 +121,12 @@ class ExperiencePage extends Component {
             />
           </div>
           <div class="row">
-            <img id="dots" class="center" src={dots}></img>
+            <img id="dots" class="center" src={dots} alt="Dots"></img>
           </div>
           <div class="row">
             <ExperienceCard
               logo={ftl.logo}
+              alt={ftl.alt}
               company={ftl.company}
               position={ftl.position}
               dates={ftl.dates}
@@ -129,11 +134,12 @@ class ExperiencePage extends Component {
             />
           </div>
           <div class="row">
-            <img id="dots" class="center" src={dots}></img>
+            <img id="dots" class="center" src={dots} alt="Dots"></img>
           </div>
           <div class="row">
             <ExperienceCard
               logo={appstrax.logo}
+              alt={appstrax.alt}
               company={appstrax.company}
               position={appstrax.position}
               dates={appstrax.dates}
