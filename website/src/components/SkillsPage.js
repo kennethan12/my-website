@@ -16,7 +16,7 @@ class SkillsPage extends Component {
           <div class="row">
             <div className="underscore-dark" />
           </div>
-          <div class="row">
+          <div class="row mt-4">
             {SkillsData.map((set) => {
               return (
                 <SkillSet setName={set.setName} skills={set.skills} />

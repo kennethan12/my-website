@@ -13,8 +13,8 @@ class Project extends Component {
           <div className="project__name">{name}</div>
           <p className="project__tools pr-3 pl-3">{tools}</p>
           <div style={{ width: '100%', textAlign: 'center' }}>
-            <a href={link}>
-              <img src={githubImg} style={{ width: '20%' }} alt="Github logo"></img>
+            <a href={link} target="_blank" rel='noopener noreferrer'>
+              <img id="github-logo" src={githubImg} style={{ width: '20%' }} alt="Github logo"></img>
             </a>
           </div>
         </div>
