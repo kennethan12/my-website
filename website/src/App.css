@@ -56,9 +56,11 @@
 
 .h3 {
   font-weight: 500 !important;
-  font-size: 2rem !important;
+  font-size: 1.7rem !important;
   text-align: center;
   color: #1D240A;
+
+  padding: 15px 10px 20px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Avenir:300,500');
@@ -257,4 +259,32 @@ p strong {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+.skillset {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.skill__image {
+  width: 70px;
+}
+
+.skill__name {
+  text-align: center;
+  padding-top: 10px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 575px) {
+  #skill+.col-6 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
 }

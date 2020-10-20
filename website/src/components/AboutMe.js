@@ -6,7 +6,7 @@ class AboutMe extends Component {
     return (
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="col align-self-center pt-3 pb-3">
+          <div class="col align-self-center pt-3 pb-3" style={{ fontSize: '1.2em', fontWeight: '500' }}>
             <p>
               I’m a recent grad from Williams College looking for Full Stack Development opportunities!
             </p>

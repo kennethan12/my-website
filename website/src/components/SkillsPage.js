@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SkillSet from './SkillSet'
+import { SkillsData } from '../data/skills-data'
 
 class SkillsPage extends Component {
 
@@ -16,7 +17,11 @@ class SkillsPage extends Component {
             <div className="underscore-dark" />
           </div>
           <div class="row">
-            <SkillSet />
+            {SkillsData.map((set) => {
+              return (
+                <SkillSet setName={set.setName} skills={set.skills} />
+              )
+            })}
           </div>
         </div>
       </div>
