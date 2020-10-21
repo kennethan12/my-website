@@ -1,5 +1,6 @@
 import React from 'react';
 import IntroPage from './components/IntroPage'
+import Navbar from './components/Navbar';
 import AboutPage from './components/AboutPage'
 import ExperiencePage from './components/ExperiencePage'
 import PortfolioPage from './components/PortfolioPage'
@@ -11,6 +12,7 @@ function App() {
   return (
     <div>
       <IntroPage />
+      <Navbar />
       <AboutPage />
       <ExperiencePage />
       <PortfolioPage />

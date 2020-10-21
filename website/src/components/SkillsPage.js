@@ -6,7 +6,7 @@ class SkillsPage extends Component {
 
   render() {
     return (
-      <div class="container-fluid" style={{ backgroundColor: "#E2D5C0", flexWrap: "wrap" }}>
+      <div id="skills" class="container-fluid" style={{ backgroundColor: "#E2D5C0", flexWrap: "wrap" }}>
         <div class="container">
           <div class="row">
             <div class="col">

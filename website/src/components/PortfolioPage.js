@@ -68,7 +68,7 @@ class PortfolioPage extends Component {
     let { projects } = this.state;
 
     return (
-      <div class="container-fluid" style={{ backgroundColor: "#EEEAE8", flexWrap: "wrap" }}>
+      <div id="portfolio" class="container-fluid" style={{ backgroundColor: "#EEEAE8", flexWrap: "wrap" }}>
         <div class="container">
           <div class="row">
             <div class="col">

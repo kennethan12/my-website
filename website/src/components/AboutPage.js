@@ -7,7 +7,7 @@ class AboutPage extends Component {
   render() {
 
     return (
-      <div class="container-fluid" style={{ backgroundColor: "#EEEAE8", flexWrap: "wrap" }}>
+      <div id="about" class="container-fluid" style={{ backgroundColor: "#EEEAE8", flexWrap: "wrap" }}>
         <div class="container">
           <div class="row">
             <div class="col">
