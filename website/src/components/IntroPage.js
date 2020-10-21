@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-scroll'
 
 class IntroPage extends Component {
 
@@ -9,7 +10,7 @@ class IntroPage extends Component {
         <div class="content">
           <p class="intro-greeting">Hi, I'm</p>
           <h1>KENNETH AN</h1>
-          <a href='#about' class="button-slide">Learn More</a>
+          <Link to='about' class="button-slide" smooth duration={700}>Who?</Link>
         </div>
       </div>
     )

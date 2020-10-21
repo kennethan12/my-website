@@ -131,18 +131,25 @@ div p {
 .button-slide:hover {
   text-decoration: none;
   color: white;
+  cursor: pointer;
   border: white 2px solid;
   background-color: #c7bdac;
   transition: all 0.2s ease-out;
 }
 
 .navbar-items {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   background: #2E3C47;
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2em;
+  border-bottom: 5px solid;
+  border-color: #ebbb6e;
+  z-index: 1;
 }
 
 .nav-menu {
@@ -169,6 +176,7 @@ div p {
 .nav-links:hover {
   background-color: #505f6b;
   text-decoration: none;
+  cursor: pointer;
   color: white;
   transition: all 0.2s ease-out;
 }
@@ -194,7 +202,11 @@ div p {
 
 @media screen and (max-width: 652px) {
   .navbar-items {
-    position: relative;
+    position: -webkit-sticky;
+    position: sticky relative;
+    top: 0;
+    border-bottom: 5px solid;
+    border-color: #ebbb6e;
   }
 
   .nav-menu {

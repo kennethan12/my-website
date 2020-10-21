@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavbarItems from './NavbarItems';
+import { Link } from 'react-scroll';
 
 class Navbar extends Component {
 
@@ -23,9 +24,9 @@ class Navbar extends Component {
           {NavbarItems.map((item, index) => {
             return (
               <li key={index}>
-                <a className={item.cName} href={item.url}>
+                <Link className={item.cName} to={item.url} smooth duration={700} onClick={this.handleClick}>
                   {item.title}
-                </a>
+                </Link>
               </li>
             )
           })}

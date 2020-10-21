@@ -1,27 +1,27 @@
 const NavBarItems = [
   {
     title: 'About',
-    url: '#about',
+    url: 'about',
     cName: 'nav-links'
   },
   {
     title: 'Experience',
-    url: '#experience',
+    url: 'experience',
     cName: 'nav-links'
   },
   {
     title: 'Portfolio',
-    url: '#portfolio',
+    url: 'portfolio',
     cName: 'nav-links'
   },
   {
     title: 'Skills',
-    url: '#skills',
+    url: 'skills',
     cName: 'nav-links'
   },
   {
     title: 'Contact',
-    url: '#contact',
+    url: 'contact',
     cName: 'nav-links'
   },
 ]
