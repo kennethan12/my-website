@@ -16,17 +16,18 @@ class Contacts extends Component {
         text: "kennethan12@gmail.com"
       },
       {
-        image: github,
-        alt: "GitHub icon",
-        link: "https://github.com/kennethan12",
-        text: "github.com/kennethan12"
-      },
-      {
         image: linkedin,
         alt: "LinkedIn icon",
         link: "https://www.linkedin.com/in/kennethan12/",
         text: "linkedin.com/in/kennethan12"
       },
+      {
+        image: github,
+        alt: "GitHub icon",
+        link: "https://github.com/kennethan12",
+        text: "github.com/kennethan12"
+      },
+
       {
         image: twitter,
         alt: "Twitter icon",

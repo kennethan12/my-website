@@ -19,6 +19,11 @@ class ContactPage extends Component {
           <div class="row mt-4">
             <Contacts />
           </div>
+          <div class="row">
+            <div class='col copyright'>
+              <p className="copyright__label">Copyright © 2020</p>
+            </div>
+          </div>
         </div>
       </div>
     )

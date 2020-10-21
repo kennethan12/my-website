@@ -45,6 +45,20 @@
   width: 50%;
 }
 
+h1 {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 4rem !important;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.145em;
+
+  color: #FFFFFF;
+
+  filter: blur(1px);
+}
+
 .h2 {
   font-family: Raleway;
   font-style: normal;
@@ -71,6 +85,28 @@ div p {
   font-weight: 300;
   line-height: 140.9%;
   color: #1D240A;
+}
+
+.showcase {
+  background-image: url('./images/intro-pic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60% center;
+  /* background-attachment: fixed; */
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.image-container {
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
 }
 
 .container {
@@ -355,6 +391,18 @@ p strong {
   padding: 30px 80px;
 }
 
+@media only screen and (min-width: 1200px) {
+  #contacts.container {
+    margin-left: 150px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #contacts.container {
+    margin-left: 100px;
+  }
+}
+
 @media only screen and (max-width: 451px) {
   #contacts.container {
     padding: 30px 50px;
@@ -385,4 +433,22 @@ p strong {
     flex: 0 0 25%;
     max-width: 25%;
   }
+}
+
+.contact>a:hover {
+  text-decoration: none;
+  filter: brightness(70%);
+}
+
+.copyright {
+  display: flex;
+  padding: 50px 0px 100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright__label {
+  text-align: center;
+  color: rgb(146, 146, 146);
 }

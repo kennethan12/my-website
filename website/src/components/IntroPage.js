@@ -1,20 +1,15 @@
 import React, { Component } from 'react';
-import introImage from '../images/intro-pic.jpg';
 
 class IntroPage extends Component {
 
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
-      // <div class="row">
-      //   <img src={introImage} class="col-12"></img>
-      // </div>
-
-      <div className="container">
-
+      <div class="showcase">
+        <div className="image-container"></div>
+        <div class="content">
+          <p>Hi, I'm</p>
+          <h1>KENNETH AN</h1>
+        </div>
       </div>
     )
   }
