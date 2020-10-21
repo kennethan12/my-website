@@ -6,31 +6,6 @@ class ExperienceCard extends Component {
     let { logo, alt, company, position, dates, description } = this.props;
 
     return (
-      // <div class="container-fluid">
-      //   <div className="experience">
-      // <div class="row">
-      //   <div id="logoCol" class="col-1">
-      //     <img class="center" src={logo}></img>
-      //   </div>
-      //   <div class="col-11">
-      //     <div class="row">
-      //       <p>{company}</p>
-      //     </div>
-      //     <div class="row">
-      //       <div class="col">
-      //         <p>{position}</p>
-      //       </div>
-      //       <div class="col">
-      //         <p>{dates}</p>
-      //       </div>
-      //     </div>
-      //     <div class="row">
-      //       {description}
-      //     </div>
-      //   </div>
-      // </div>
-      //   </div>
-      // </div>
       <div class="container-experience">
         <div class="row">
           <div id="logoCol" class="img-experience">

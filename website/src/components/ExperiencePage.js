@@ -10,7 +10,7 @@ class ExperiencePage extends Component {
     mthree: {
       logo: mthreeLogo,
       alt: "Mthree logo",
-      company: "The Software Guild - Mthree",
+      company: "mthree",
       position: "Full Stack Java Developer Trainee",
       dates: "July 2020 - Present",
       description: <div>
