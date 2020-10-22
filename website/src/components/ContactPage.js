@@ -21,7 +21,7 @@ class ContactPage extends Component {
           </div>
           <div class="row">
             <div class='col copyright'>
-              <p className="copyright__label">Copyright © 2020</p>
+              <p className="copyright__label">Kenneth An © 2020</p>
             </div>
           </div>
         </div>

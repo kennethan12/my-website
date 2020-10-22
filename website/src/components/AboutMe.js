@@ -17,7 +17,16 @@ class AboutMe extends Component {
               and assist them back.
             </p>
             <p>
-              Outside of coding, I love to make music, browse food pictures on Instagram, mess around with my dog, and work out.
+              Outside of coding, I love to make <a
+                className='music-link'
+                href="https://open.spotify.com/artist/7tXsQGN2ERDADP7uNViPKr?si=Lkvuy2-UQmSZuJZlbLU9Ng"
+                target="_blank"
+                rel='noopener noreferrer'
+              >
+                music
+              </a>,
+              browse food pictures on Instagram, mess around with my dog, and work out.
+              I live in <strong>New York City</strong>.
             </p>
           </div>
         </div>

@@ -109,11 +109,42 @@ div p {
   justify-content: center;
   text-align: center;
   padding: 0 20px;
+  animation: transitionIn 1s;
+}
+
+.showcase .content {
+  animation: transitionInLag 1.8s;
 }
 
 @media only screen and (max-width: 1140px) {
   .showcase {
     background-attachment: scroll;
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+@keyframes transitionInLag {
+
+  0%,
+  50% {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateX(0);
   }
 }
 
@@ -294,6 +325,16 @@ div p {
   height: 5px;
   background: white;
   border-radius: 50px;
+}
+
+.music-link,
+.music-link:visited {
+  color: maroon;
+}
+
+.music-link:hover {
+  text-decoration: none;
+  color: rgb(155, 87, 87);
 }
 
 .experience {
