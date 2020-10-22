@@ -7,6 +7,7 @@ import ctcImg from '../images/crack-the-code.png';
 import vmImg from '../images/vending-machine.png';
 import crosswordImg from '../images/crossword.png';
 import localhostImg from '../images/localhost.png';
+import websiteImg from '../images/website.png'
 
 class PortfolioPage extends Component {
 
@@ -18,6 +19,13 @@ class PortfolioPage extends Component {
         name: "Katacoin Live Orderbook",
         tools: "React.js, Bootstrap, Node.js, Socket.io, HTML, CSS, Java, Spring Boot, MySQL",
         link: 'https://github.com/kennethan12/orderbook'
+      },
+      {
+        image: websiteImg,
+        alt: "Screenshot of this website",
+        name: "Portfolio Website",
+        tools: "React.js, Bootstrap, HTML, CSS",
+        link: 'https://github.com/kennethan12/my-website'
       },
       {
         image: superheroImg,

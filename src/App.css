@@ -50,10 +50,10 @@ h1 {
   font-style: normal;
   font-weight: 700 !important;
   font-size: 3.5rem !important;
-  line-height: 42px;
+  line-height: 60px;
   text-align: center;
   letter-spacing: 0.1em;
-  margin-bottom: 20px !important;
+  margin-bottom: 40px !important;
 
   color: #FFFFFF;
 
@@ -294,7 +294,7 @@ div p {
 }
 
 .container {
-  padding: 60px;
+  padding: 60px 20px;
 }
 
 .underscore-light {
